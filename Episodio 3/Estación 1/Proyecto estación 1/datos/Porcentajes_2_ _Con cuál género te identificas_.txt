@@ -1,0 +1,6 @@
+Porcentajes para la pregunta: 2. ¿Con cuál género te identificas?
+==================================
+2. ¿Con cuál género te identificas?
+Femenino               53.125
+Masculino              43.750
+Prefiero no decirlo     3.125

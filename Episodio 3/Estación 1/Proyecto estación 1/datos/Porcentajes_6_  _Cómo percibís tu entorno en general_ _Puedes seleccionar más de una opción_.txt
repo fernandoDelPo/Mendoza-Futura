@@ -1,0 +1,13 @@
+Porcentajes para la pregunta: 6.  ¿Cómo percibís tu entorno en general? (Puedes seleccionar más de una opción)
+==================================
+6.  ¿Cómo percibís tu entorno en general? (Puedes seleccionar más de una opción)
+Complicado      33.913043
+Inseguro        25.217391
+Ansioso         12.173913
+Violento         9.565217
+Incómodo         6.086957
+Cómodo           4.347826
+Contenedor       3.478261
+Alegre           3.478261
+Preocupado       0.869565
+desinformado     0.869565

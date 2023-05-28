@@ -1,0 +1,17 @@
+Porcentajes para la pregunta: 7. ¿Qué emociones predominan en tu día a día? (Puedes seleccionar más de una opción)
+==================================
+7. ¿Qué emociones predominan en tu día a día? (Puedes seleccionar más de una opción)
+Optimismo       12.857143
+Ansiedad        12.857143
+Fastidio        12.857143
+Tristeza        12.142857
+Enojo            8.571429
+Miedo            7.857143
+Confusión        7.857143
+Alegría          7.142857
+Pesimismo        4.285714
+Nostalgia        4.285714
+Calma            2.857143
+Sorpresa         2.857143
+Indiferencia     2.142857
+Aversión         1.428571

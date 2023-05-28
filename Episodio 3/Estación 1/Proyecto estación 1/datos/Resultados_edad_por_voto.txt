@@ -1,0 +1,8 @@
+Voto	suma_edades	contador	promedio_edades
+No iré votar	270	7	39 años en promedio
+Libertad Avanza	828	19	44 años en promedio
+En blanco	108	3	36 años en promedio
+Frente de Todos	329	7	47 años en promedio
+Anularé mi voto	98	3	33 años en promedio
+Otros candidatos	456	11	41 años en promedio
+Juntos por el cambio	650	14	46 años en promedio

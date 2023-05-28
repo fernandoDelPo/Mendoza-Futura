@@ -1,0 +1,6 @@
+Porcentajes para la pregunta: 14. ¿Cómo ves a la Argentina en 2030?
+==================================
+14. ¿Cómo ves a la Argentina en 2030?
+Mejor    51.5625
+Igual    25.0000
+Peor     23.4375

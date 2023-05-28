@@ -1,0 +1,11 @@
+Porcentajes para la pregunta: 3. ¿Cuál es tu departamento de residencia?
+==================================
+3. ¿Cuál es tu departamento de residencia?
+Guaymallén       42.1875
+Godoy Cruz       18.7500
+Capital          12.5000
+Las Heras         9.3750
+Maipú             7.8125
+Luján de Cuyo     6.2500
+Malargüe          1.5625
+San Rafael        1.5625

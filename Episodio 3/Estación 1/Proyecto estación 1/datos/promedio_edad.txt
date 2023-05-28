@@ -1,0 +1,1 @@
+El promedio de edad de todos los encuestados es:  42.796875 anios
