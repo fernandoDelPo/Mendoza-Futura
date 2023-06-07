@@ -261,21 +261,21 @@ Este carácter de finalización puede cambiarse por otros, hay que agregar otro 
 llamado end=”caracter_de_separación”. Print viene por defecto con end = “\n” pero puede
 cambiarse. Observar:
 
-```sh
+```py
 1. print('Hola Mendoza', end=" ")
 2. print('Futura')
 ```
 Salida: 
-```sh
+```py
 Hola Mendoza Futura
 ```
 o 
-```sh
+```py
 1. print('Hola Mendoza', end="@")
 2. print('Futura')
 ```
 
-```sh
+```py
 Hola Mendoza@Futura
 ```
 Realizar ejemplos anteriores y experimentar con distintos símbolos para el
@@ -316,7 +316,7 @@ Salida: 25.5
 En este ejemplo observamos que se utiliza el sistema de puntuación donde el punto representa la coma decimal de nuestro sistema.
 # Actividad 18:
 18. Completar la salida:
-```sh
+```py
 N1 = “5”
 
 N2 = “21”
@@ -733,3 +733,81 @@ b. Solsticio de junio: día 21 COMIENZA EL INVIERNO
 c. Equinoccio de septiembre: día 21 COMIENZA PRIMAVERA
 
 d. Solsticio de diciembre: día 21 COMIENZA EL VERANO
+
+
+## Bucle de control: while
+La palabra while traducida al español es mientras, y su nombre tiene que ver con
+la forma de trabajar de este bucle. El uso del while permite ejecutar una sección
+de código repetidas veces, se ejecutará mientras una condición determinada se cumpla.
+Cuando la condición deje de cumplirse el bucle deja de repetirse y sale del mismo siguiendo
+con la secuencia de programa.
+La cantidad de veces que se repetirá no están definidas, pueden repetirse tantas veces como
+pueda, mientras la condición sea verdadera.
+Al igual que el if, el bucle while tiene dos partes:
+    ● La condición que se tiene que cumplir para que se ejecute el código.
+    ● El bloque de código que se ejecutará mientras la condición se cumpla.
+Hay que tener cuidado ya que si no se modifica la variable de control dentro del bucle se
+pueden crear bucles infinitos y problemas en la ejecución del programa. Imaginen que la
+condición del while se cumpla siempre, el bucle se repetirá por siempre, un programa así
+puede ser de muy poca utilidad.
+Siempre que se programe un bucle while se deberá tener en cuenta que la condición o la
+variable que hace esa condición cambie dentro del bucle while por algún evento que se dé
+durante la ejecución del programa.
+
+![while](_ref/img08.jpg)
+![while](_ref/img09.jpg)
+
+
+En los ejemplos anteriores se puede observar que x está en la condición y dentro del bucle
+while. El bucle comienza y termina luego de 10 iteraciones. Una iteración es una vuelta del
+bucle.
+En el ejemplo anterior x es la variable de control, se le llama así a la variable que establece la
+condición del while (y otras estructuras de control como el if y el for).
+Con la ayuda de esta estructura de control se podrá hacer que un programa se ejecute cuantas
+veces se desee sin la necesidad de volver a ejecutar el programa una vez que éste haya
+finalizado.
+Propuesta: Copiar y observar el comportamiento del siguiente ejemplo:
+
+![while](_ref/img10.jpg)
+Al inicio se establece la variable de control c igual a “s” para que en un comienzo se ejecute el
+bucle while. Al “entrar” al while pide ingresar un número A y un número B por teclado, como
+salida se obtiene el resultado de la suma de A y B. Antes de repetirse el bucle while pregunta si
+se desea realizar otra suma, esperando que el usuario ingrese una S para “Si” o una N para
+“No". Si la respuesta es S o s, se sigue cumpliendo la condición del while y se ejecuta
+nuevamente desde la línea 3 del programa en adelante. Si la respuesta es “N” o “n” (o
+cualquier otra letra) la condición del while deja de cumplirse (se hace False) y no se ejecuta
+más el bucle, continuando con el código que sigue que imprime un mensaje diciendo: “Fin del
+programa”.
+
+### IMPORTANTE: 
+La variable de control tiene que poder variar dentro del while para evitar bucles
+infinitos.
+### ACLARACIÓN: 
+En realidad, en el ejemplo cualquier letra que no sea una “S” o una “s” hará que
+el programa salga de la condición verdadera y deje de ejecutarse.
+
+### Actividades básicas y complementarias:
+
+
+
+33. Actividad: Escriba un programa que pregunte una y otra vez si desea
+continuar con el programa, siempre que se conteste exactamente sí (en minúsculas y
+con tilde).
+![while](_ref/img11.jpg)
+
+34. Actividad: Modificar el programa realizado anteriormente que
+solicita: el año actual, si la respuesta del usuario es “2023” el programa responde
+“Correcto” sino dirá: “El año ingresado no es el actual”, agregándole un bucle while que
+permita ejecutar tantas veces como el usuario desee este programa.
+
+35. Actividad: Modificar el siguiente programa (que ya se ha desarrollado
+con anterioridad) para que pueda repetirse tantas veces como el usuario lo desee.
+Adoptar una estrategia en la que se solicite una entrada para saber si el usuario desea
+repetir el programa o finalizar la ejecución de este.
+![while](_ref/img12.jpg)
+
+36. Actividad: Escribir un programa en el que solicite ingresar la contraseña de un
+usuario, para ello es necesario escribir la contraseña que se desea establecer y luego
+pedir una confirmación de contraseña, es decir, volver a solicitar la contraseña hasta
+que ambas coincidan. Guiarse con el siguiente ejemplo:
+![while](_ref/img13.jpg)
