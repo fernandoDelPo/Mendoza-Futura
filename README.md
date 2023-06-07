@@ -1,5 +1,6 @@
 # Mendoza-Futura
 Mendoza Futura es un Programa de Desarrollo de Habilidades del Siglo XXI destinado a jóvenes de entre 15 y 18 años en la provincia de Mendoza, Argentina. Es un espacio para el desarrollo de la innovación, la investigación y el desarrollo tecnológico, con el objetivo de desarrollar y entrenar competencias tecnológicas e innovativas en nuestros jóvenes.
+![logo](img/channels4_profile)
 
 Este programa es una iniciativa que busca fomentar el desarrollo tecnológico y la innovación en la provincia de Mendoza, brindando un espacio para que los jóvenes puedan adquirir nuevas habilidades y conocimientos en áreas como la tecnología, la innovación y la investigación. Esto les permitirá estar preparados para enfrentar los desafíos del futuro y contribuir al desarrollo de la sociedad.
 
