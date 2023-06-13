@@ -811,3 +811,69 @@ usuario, para ello es necesario escribir la contraseña que se desea establecer 
 pedir una confirmación de contraseña, es decir, volver a solicitar la contraseña hasta
 que ambas coincidan. Guiarse con el siguiente ejemplo:
 ![while](_ref/img13.jpg)
+
+
+# Ciclo for
+
+El ciclo for se utiliza para iterar sobre una secuencia de elementos, como una lista, una cadena de texto, un rango numérico u otros tipos de datos iterables. El ciclo for ejecuta un bloque de código para cada elemento de la secuencia.
+
+Un ejemplo de código que utiliza un ciclo for para imprimir cada elemento de una lista:
+
+```py
+frutas = ["manzana", "plátano", "naranja"]
+
+for fruta in frutas:
+    print(fruta)
+```
+En este ejemplo, el ciclo for se ejecuta una vez por cada elemento en la lista frutas. En cada iteración, el elemento actual se asigna a la variable fruta, y luego se imprime en la consola. La salida sería:
+
+```py
+manzana
+plátano
+naranja
+```
+También puedes usar la función range() para generar una secuencia de números y usarla en un ciclo for. Por ejemplo: 
+```py
+for i in range(1, 5):
+    print(i)
+```
+
+Este código imprimirá los números del 1 al 4, ya que el rango especificado es desde 1 (inclusive) hasta 5 (exclusivo). La salida sería:
+
+```py
+1
+2
+3
+4
+```
+El ciclo for también se puede combinar con sentencias condicionales, funciones u otras operaciones para realizar diferentes acciones en cada iteración. La clave es que el ciclo for recorre todos los elementos de una secuencia y realiza una tarea específica para cada elemento.
+
+ejemplo de código que combina un ciclo for con una sentencia condicional para filtrar y realizar una acción específica en cada elemento de una lista:
+
+```py
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for num in numeros:
+    if num % 2 == 0:  # Verificar si el número es par
+        print(f"{num} es par")
+    else:
+        print(f"{num} es impar")
+```
+
+En este ejemplo, el ciclo for itera sobre cada número en la lista numeros. Luego, se evalúa una condición utilizando la sentencia if. Si el número es divisible por 2 (es par), se ejecuta el bloque de código dentro del primer if y se imprime un mensaje indicando que el número es par. Si el número no es divisible por 2 (es impar), se ejecuta el bloque de código dentro del else y se imprime un mensaje indicando que el número es impar.
+
+La salida sería:
+
+```
+1 es impar
+2 es par
+3 es impar
+4 es par
+5 es impar
+6 es par
+7 es impar
+8 es par
+9 es impar
+10 es par
+```
+Este es solo un ejemplo simple que muestra cómo combinar el ciclo for con una sentencia condicional, pero puedes realizar cualquier acción dentro del ciclo en función de tus necesidades y lógica específica.
