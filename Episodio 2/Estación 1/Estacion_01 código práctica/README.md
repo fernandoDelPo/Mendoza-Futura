@@ -783,8 +783,7 @@ programa”.
 La variable de control tiene que poder variar dentro del while para evitar bucles
 infinitos.
 ### ACLARACIÓN: 
-En realidad, en el ejemplo cualquier letra que no sea una “S” o una “s” hará que
-el programa salga de la condición verdadera y deje de ejecutarse.
+En realidad, en el ejemplo cualquier letra que no sea una “S” o una “s” hará que el programa salga de la condición verdadera y deje de ejecutarse.
 
 ### Actividades básicas y complementarias:
 

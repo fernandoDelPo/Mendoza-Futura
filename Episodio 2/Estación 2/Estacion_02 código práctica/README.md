@@ -151,7 +151,7 @@ Los métodos de las listas son los siguientes:
 
 ● .append(valor) : agrega un elemento al final de la lista con el valor colocado entre paréntesis.
 
-● .insert(índice, valor) : agrega un elemento en el índice indicado con el valor indicado en los paréntesis.
+● .insert(índice, valor) : agrega un elemento en el índice señalado con el valor indicado en los paréntesis.
 
 ● .remove(índice) : elimina el elemento del índice indicado entre paréntesis.
 
