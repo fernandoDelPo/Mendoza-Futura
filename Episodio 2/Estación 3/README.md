@@ -1,4 +1,6 @@
-# ESTACION 3
+***Fernando Del Pozzi - Mendoza Futura 2023***
+[GitHub Episodio 2](https://github.com/fernandoDelPo/mendoza-futura/tree/main/Episodio%202)
+# ESTACION 3 
 
 ## Tema 3.1- Formato programa básico Python
 Existen dos plantillas o formatos básicos para programar con Python:
@@ -540,3 +542,7 @@ https://python-para-impacientes.blogspot.com/p/tutorial-de-tkinter.html
 https://www.tutorialspoint.com/python/python_gui_programming.htm
 
 https://www.javatpoint.com/python-tkinter-canvas
+
+
+***Fernando Del Pozzi - Mendoza Futura 2023***
+[GitHub Episodio 2](https://github.com/fernandoDelPo/mendoza-futura/tree/main/Episodio%202)
