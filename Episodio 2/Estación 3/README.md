@@ -50,9 +50,12 @@ Al clickear sobre “Editar la plantilla para nuevos archivos” en el editor de
 Modificaremos este archivo copiando y pegando la siguiente porción de código:
 ```js
 def main():
+    # Acá ponemos todo el código o lógica de de las 
+    # instrucciones de la funcion
 if __name__ == "__main__":
+    main()
 
-    #de ahora en más colocaremos en esta sección el código a ejecutar
+    # de ahora en más colocaremos en esta sección el código a # ejecutar
     #no olvidar indentación o tabulación.
 ```
 

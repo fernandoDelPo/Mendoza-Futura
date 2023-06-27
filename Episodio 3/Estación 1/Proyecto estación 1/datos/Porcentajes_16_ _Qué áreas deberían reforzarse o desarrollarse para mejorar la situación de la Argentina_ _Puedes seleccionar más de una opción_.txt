@@ -1,9 +1,0 @@
-Porcentajes para la pregunta: 16. ¿Qué áreas deberían reforzarse o desarrollarse para mejorar la situación de la Argentina? (Puedes seleccionar más de una opción)
-==================================
-16. ¿Qué áreas deberían reforzarse o desarrollarse para mejorar la situación de la Argentina? (Puedes seleccionar más de una opción)
-Estabilidad económica                  28.415301
-Mejor educación                        18.032787
-Fortalecimiento institucional          16.393443
-Estabilidad política                   14.754098
-Desarrollo humano                      12.568306
-Fomentar la innovación y tecnología     9.836066
