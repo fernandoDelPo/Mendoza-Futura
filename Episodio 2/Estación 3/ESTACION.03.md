@@ -202,7 +202,44 @@ La idea de las funciones es evitar hacer el código de cálculos o tareas repeti
 números. Como resultado imprime “La suma de {numero1} y {numero2} es
 {resultado}”
 
-3. Actividad complementaria:Crear una función llamada triangulo_equilatero(base, altura). Recibe como entradas la base y la altura del triángulo. Como resultado expresará: lado del triangulo (base), altura del triángulo (ojo acá!), perímetro del triángulo (base+base+base), área del triángulo (b*h/2).
+```py
+
+def main():
+    resultado_suma = suma(5, 7) 
+    resultado_suma = suma(123, 98)
+    resultado_suma = suma(87, 4)
+    resultado_suma = suma(77, 21)
+
+def suma(numero1, numero2): 
+    resultado = numero1 + numero2 
+    print(f"La suma de {numero1} y {numero2} es: {resultado}") 
+    return resultado 
+
+if __name__ == "__main__":
+    main() 
+
+------------------------------------------------------------------
+
+Explicación: 
+
+def main(): # PASO 2 - En main() le pasamos los argumentos
+    # Ejemplos de uso:
+    resultado_suma = suma(5, 7) # Llamo a la función suma() y le paso lo dos   parámetros. En este caso dos números
+    resultado_suma = suma(123, 98)# Vuelvo a llamar a la función y le   paso dos números distintos y así todas las veces que necesite     utilizar la función.
+
+
+def suma(numero1, numero2):  # PASO 3 - Defino la funcion suma()
+    resultado = numero1 + numero2 #Acá le doy las intrucciones. Le digo que sume los dos variables o parámetros
+    print(f"La suma de {numero1} y {numero2} es: {resultado}") #Imprimo en la consola
+    return resultado # Retorno el resultado de la función
+
+if __name__ == "__main__": # PASO 1 - Este es el primer paso
+    main() # Lamamos a la funcion main()
+
+
+```
+
+3. Actividad complementaria: Crear una función llamada triangulo_equilatero(base, altura). Recibe como entradas la base y la altura del triángulo. Como resultado expresará: lado del triangulo (base), altura del triángulo (ojo acá!), perímetro del triángulo (base+base+base), área del triángulo (b*h/2).
 
 4. Actividad básica: Modificar el programa de las estaciones haciendo una función llamada estacion(día,mes), la salida es la estación de ese día y mes.
 Crear un programa que solicite el mes y el día actual. La respuesta del programa deberá ser la estación correspondiente al día y mes ingresado . Por ejemplo, si el día es 28 y el mes 3, la respuesta será “Es otoño”. Ayuda: es necesario usar los operadores lógicos y lo operadores de comparación. Considerar la siguiente información y adoptar una estrategia para resolver el problema.
@@ -220,13 +257,13 @@ Crear un programa que solicite el mes y el día actual. La respuesta del program
 
 Discusión ¿Qué hace el código? Pensar cómo llamar la función, cuáles serán sus parámetros y cuál será el resultado.
 
-6. Actividad básica: Elige el programa realizado en las secciones anteriores que más te guste y transfórmalo en una función.
+6. Actividad: Elige el programa realizado en las secciones anteriores que más te guste y transfórmalo en una función.
 
-7. Actividad básica: Crea un programa que pida dos números enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crea una función es_multiplo() que reciba los dos números, y devuelve si el primero es múltiplo del segundo. (Uso de %)
+7. Actividad: Crea un programa que pida dos números enteros al usuario y diga si alguno de ellos es múltiplo del otro. Crea una función es_multiplo() que reciba los dos números, y devuelve si el primero es múltiplo del segundo. (Uso de %)
 
-8. Actividad básica:En un mismo programa, colocar 3 de las funciones realizadas
-anteriormente y hacer llamadas a cada una de ellas en la función principal (if
-__name__ == “__main__”: )
+8. Actividad: En un mismo programa, colocar 3 de las funciones realizadas
+anteriormente y hacer llamadas a cada una de ellas en la función principal 
+(if__name__ == “__main__”: )
 
 
 
@@ -268,6 +305,7 @@ random.choice("AEIOU")
 
 
 9. Actividad básica: Con un bucle for, llenar una lista con 100 números enteros aleatorios que pueden ir del 0 al 1000.
+
 10.Actividad complementaria: Elegir una palabra aleatoria de la siguiente lista:
 
 ```py
