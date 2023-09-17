@@ -75,7 +75,7 @@ import csv
 personas = [
     ["Fernando", "Del Pozzi", "Mendoza"],
     ["Maria", "Perez", "San Juan"],
-    ["Lionel", "Messi", "Paris"]
+    ["Lionel", "Messi", "Miami"]
 ]
 with open("personas.csv", "w", newline='') as file:
     writer = csv.writer(file, delimiter= ',')
