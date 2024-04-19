@@ -7,6 +7,9 @@ urlProducc = "https://datos.magyp.gob.ar/dataset/e217791c-e898-4204-8a62-63273cf
 
 datos = pd.read_csv(urlProducc, header=0, names=['Fecha', 'produccion_bs_as', 'produccion_catamarca', 'produccion_chubut', 'produccion_cordoba', 'produccion_entre_rios', 'produccion_jujuy', 'produccion_la_pampa', 'produccion_la_rioja', 'produccion_mendoza', 'produccion_misiones', 'produccion_neuquen', 'produccion_rio_negro', 'produccion_salta', 'produccion_san_juan', 'produccion_san_luis', 'produccion_tucuman'])
 
+
+# Buscamos los valores faltantes NaN (NaN, que "Not a Number") en un DataFrame de Pandas y los llenamos con el valor 0. 
+# Esto se hace para manejar los datos faltantes y asegurarse de que todas las celdas del DataFrame tengan un valor numérico válido.
 datos = datos.fillna(0)
 
 # se filtran los datos del año 2017
@@ -16,6 +19,11 @@ datos_2017 = datos.loc[datos['Fecha'].astype(str).str.contains('2017')]
 provincias = ['Bs. As.', 'Catamarca', 'Chubut', 'Córdoba', 'Entre Ríos', 'Jujuy', 'La Pampa', 'La Rioja', 'Mendoza', 'Misiones', 'Neuquén', 'Río Negro', 'Salta', 'San Juan', 'San Luis', 'Tucumán']
 
 # se calcula la producción total por provincia en 2017
+# datos_2017.sum(): Esta parte del código realiza una suma de todas las columnas en el DataFrame datos_2017. El método sum() de Pandas suma los valores en cada columna numérica del DataFrame. Sin embargo, en este caso, 
+# que se ha utilizado una indexación [1:] para excluir la primera columna.
+# [1:]: La indexación [1:] se utiliza para seleccionar todas las columnas del DataFrame a partir de la segunda columna en adelante. Esto se hace para excluir la primera columna, que contiene el id_país que no nos interesa.
+# .tolist(): Finalmente, .tolist() convierte el resultado de la suma en una lista de Python. Esto es útil si deseas trabajar con los valores totales en forma de lista en lugar de mantenerlos en un objeto Pandas.
+
 produccion_por_provincia = datos_2017.sum()[1:].tolist()
 
 # se muestra el gráfico de torta

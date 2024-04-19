@@ -63,3 +63,25 @@ personas_con_lentes = df[df["Lentes"] == "Sí"]
 cantidad_personas_con_lentes = len(personas_con_lentes)
 
 print("Cantidad de personas que usan lentes:", cantidad_personas_con_lentes)
+
+
+
+# Usar groupby() para agrupar por provincia y luego sumar las edades de cada grupo
+resultado = df.groupby('Provincia')['Edad'].sum()
+
+# Usar groupby() para agrupar por provincia y luego contar las filas en cada grupo. Es decir saber la cantidad de personas por Provincia
+resultado2= df.groupby('Provincia')['Nombre'].count()
+
+print(f"Suma de todas las edades por provincia:  {resultado} - Cantidad de Personas : {resultado2}")
+
+# Usar groupby() para agrupar por provincia y contar las filas en cada grupo
+resultado_nombre = df.groupby('Provincia')['Nombre'].count()
+resultado_edad = df.groupby('Provincia')['Edad'].sum()
+
+# Concatenar los resultados
+resultado_completo = pd.concat([resultado_nombre, resultado_edad], axis=1)
+
+# Renombrar las columnas para mayor claridad
+resultado_completo.columns = ['Cantidad de Personas', 'Suma de Edades']
+
+print(resultado_completo)

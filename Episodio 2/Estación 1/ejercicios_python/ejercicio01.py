@@ -15,3 +15,4 @@ max(8, 5) # Acá llamo a la función y le paso los parametros. 8 será n1 y 5 se
 
 '''Aclaro que uso el print para llamar a la función de la manera max(8, 5).
 También se puede usar return.'''
+
